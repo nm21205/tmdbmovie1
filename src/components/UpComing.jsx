@@ -8,6 +8,7 @@ import 'swiper/css/navigation'; // Navigation CSS import
 import 'swiper/css/autoplay'; // Autoplay CSS import
 
 const UpComing = () => {
+  const APIKEY = process.env.REACT_APP_API_KEY;
   const [nextMovies, setNextMovies] = useState([]);
   const [isLoading, setLoading] = useState(true);
 
